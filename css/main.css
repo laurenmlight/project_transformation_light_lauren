@@ -48,6 +48,12 @@ a {
     color: #5E5E5E;
 }
 
+.group::after {
+    content: '';
+    clear: both;
+    display: block;
+}
+
 #wrapper {
     background: #FFFFFF url(../img/img05.jpg) repeat;
 }
@@ -166,7 +172,6 @@ a {
 }
 
 .post {
-    overflow: hidden;
     margin-bottom: 40px;
     border-bottom: 1px solid #E7EBED;
 }
@@ -225,7 +230,6 @@ a {
     text-align: center;
     text-decoration: none;
 }
-
 
 @media all and (min-width: 1060px) {
     #content {
