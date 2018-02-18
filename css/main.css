@@ -150,7 +150,6 @@ a {
         margin: auto;
         text-align: right;
     }
-
 }
 
 /* Page */
@@ -225,6 +224,20 @@ a {
     color: #FFFFFF;
     text-align: center;
     text-decoration: none;
+}
+
+
+@media all and (min-width: 1060px) {
+    #content {
+        float: right;
+        margin-left: 1.5em;
+        width: calc(100% / 3 * 2);
+    }
+
+    #sidebar {
+        float: left;
+        width: calc(100% / 3 - 1.5em);
+    }
 }
 
 /* Sidebar */
