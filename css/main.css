@@ -138,6 +138,21 @@ a {
     color: #FFFFFF;
 }
 
+@media all and (min-width:600px) {
+    nav li {
+        width: 110px;
+        font-size: .8em;
+        line-height: 70px;
+        display: inline-block;
+    }
+
+    nav ul {
+        margin: auto;
+        text-align: right;
+    }
+
+}
+
 /* Page */
 
 #page {
