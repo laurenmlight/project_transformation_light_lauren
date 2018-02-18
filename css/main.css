@@ -1,3 +1,13 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -44,6 +54,7 @@ a {
 
 .container {
     margin: 0px auto;
+    max-width: 1000px;
 }
 
 /* Header */
@@ -291,7 +302,6 @@ a {
 
 #banner {
     margin: 0px auto;
-    max-width: 1000px;
 }
 
 #banner img {
