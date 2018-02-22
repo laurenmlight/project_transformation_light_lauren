@@ -116,7 +116,6 @@ a {
     margin: 0;
     padding: 20px 0px 20px 0px;
     list-style: none;
-    line-height: normal;
 }
 
 #menu a {
@@ -211,8 +210,6 @@ a {
     font-weight: 300;
 }
 
-
-
 .post .entry {
     padding: 0px 0px 40px 0px;
     text-align: justify;
@@ -306,10 +303,6 @@ a {
     font-size: 1em;
     text-transform: uppercase;
     text-align: center;
-    color: #5E5E5E;
-}
-
-#footer a {
     color: #5E5E5E;
 }
 
