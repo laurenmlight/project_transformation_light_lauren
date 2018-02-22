@@ -152,6 +152,8 @@ a {
 }
 
 @media all and (min-width:600px) {
+
+
     nav li {
         width: 110px;
         font-size: .8em;
@@ -165,6 +167,18 @@ a {
     }
 }
 
+@media all and (min-width:830px) {
+
+    #logo {
+        float: left;
+    }
+
+    #menu {
+        float: right;
+    }
+
+}
+
 /* Page */
 
 #page {
@@ -176,6 +190,10 @@ a {
 
 #content {
     padding: 0px 0px 0px 0px;
+}
+
+.posted {
+    float: right;
 }
 
 .post {
